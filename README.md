@@ -1,4 +1,4 @@
-🌟 Java Banking App (3-File Lightweight Version)
+🌟 Java Banking App
 
 A clean, minimal, and fully functional console-based Banking System written in Java using only three source files.
 Perfect for projects, assignments, and beginners learning OOP + Java fundamentals.
