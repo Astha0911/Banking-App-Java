@@ -1,49 +1,51 @@
-Banking App in Java (3-File Version)
+🌟 Java Banking App (3-File Lightweight Version)
 
-A simple console-based banking system built using only three Java files:
+A clean, minimal, and fully functional console-based Banking System written in Java using only three source files.
+Perfect for projects, assignments, and beginners learning OOP + Java fundamentals.
 
-Main.java – User interface and menu
+🚀 Features
 
-BankService.java – Service interface
+✔ Create Savings / Current accounts
+✔ Auto-generated account number
+✔ Deposit, Withdraw, Transfer money
+✔ Balance validation & error handling
+✔ Transaction history with timestamps
+✔ Simple in-memory storage (HashMap)
+✔ Lightweight & beginner-friendly architecture
 
-BankApp.java – Core logic (accounts, transactions, validation)
-
-Features
-
-Create Savings/Current account
-
-Deposit, Withdraw, and Transfer money
-
-Auto-generated account numbers
-
-Transaction history with timestamps
-
-Input validation (email, amount)
-
-In-memory data storage (HashMap)
-
-Project Structure
+📁 Project Structure
 BankingApp/
- ├─ Main.java
- ├─ BankService.java
- └─ BankApp.java
+ ├─ Main.java          # User interface, menu, input handling
+ ├─ BankService.java   # Service interface definition
+ └─ BankApp.java       # Core logic (Accounts, Transactions, Validation, Storage)
 
-How to Run
-Using VS Code
+▶️ Running the Application
+💻 Using VS Code
 
 Install Java Extension Pack
 
-Open project folder
+Open the project folder
 
 Open Main.java
 
-Click Run ▶
+Click Run ▶️ in the top-right corner
 
-Using Terminal
+🖥 Using Terminal
 javac *.java
 java Main
 
-Sample Output
+🧩 Technologies Used
+
+Java 8+
+
+Object-Oriented Programming
+
+CLI (Command-Line Interface)
+
+Collections Framework (HashMap, List)
+
+📸 Sample Menu Output
+=== Banking App (3-file version) ===
 1. Open Account
 2. Deposit
 3. Withdraw
@@ -51,3 +53,11 @@ Sample Output
 5. View Statement
 6. List All Accounts
 0. Exit
+Choose:
+
+📦 Future Enhancements
+
+🔧 Add file/database persistence
+🔧 Add interest calculation
+🔧 Add admin dashboard
+🔧 Add GUI using JavaFX or Swing
